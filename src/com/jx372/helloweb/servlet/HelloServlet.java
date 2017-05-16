@@ -27,6 +27,6 @@ public class HelloServlet extends HttpServlet {
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		doGet(request, response);  //어떤 게 들어 오던지 get방식으로 처리하는게 관례처럼 받아들어진다.
-	}
+	} 
 
 }
